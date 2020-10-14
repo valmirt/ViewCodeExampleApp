@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  ViewCodeExample
+
+  Created by Valmir Junior on 13/10/20.
+  
+*/
+
+"welcome_title" = "Welcome!";
+"welcome_title_accessibility" = "Welcome! Title";
+"main_subtitle" = "Let's workout? Here you can create the perfect training!";
+"login_button" = "Login";
+"signup_button" = "Sign Up";
+"phone_hint" = "Phone";

@@ -46,30 +46,30 @@ final class WelcomeView: UIView, CodeView {
     
     let titleLabel: UILabel = {
         let label = UILabel(frame: .zero)
-        label.text = "Welcome!"
+        label.text = Localization.welcome
         label.textAlignment = .center
         label.font = .title
         label.textColor = .title
-        label.accessibilityIdentifier = "Welcome! Title"
+        label.accessibilityIdentifier = Localization.welcomeAccessibility
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     
     let subtitleLabel: UILabel = {
         let label = UILabel(frame: .zero)
-        label.text = "Let's workout? Here you can create the perfect training!"
+        label.text = Localization.mainSubtitle
         label.textAlignment = .center
         label.numberOfLines = 0
         label.font = .body
         label.textColor = .body
-        label.accessibilityIdentifier = "Let's workout? Here you can create the perfect training!"
+        label.accessibilityIdentifier = Localization.mainSubtitle
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     
     let phoneTextField: UITextField = {
         let textField = UITextField(frame: .zero)
-        textField.placeholder = "Phone"
+        textField.placeholder = Localization.phoneHint
         textField.borderStyle = .roundedRect
         textField.keyboardType = .phonePad
         textField.textAlignment = .center
@@ -87,8 +87,8 @@ final class WelcomeView: UIView, CodeView {
         return stackview
     }()
     
-    let loginButton = WelcomeButton(style: .main, title: "Login")
-    let signupButton = WelcomeButton(style: .secondary, title: "Sign up")
+    let loginButton = WelcomeButton(style: .main, title: Localization.login)
+    let signupButton = WelcomeButton(style: .secondary, title: Localization.signup)
     
     //MARK: - Super Methods
     required init?(coder: NSCoder) {
