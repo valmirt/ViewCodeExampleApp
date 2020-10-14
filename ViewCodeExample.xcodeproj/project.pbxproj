@@ -14,6 +14,7 @@
 		C32A5C662536888A00E4A5FA /* HasCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32A5C652536888A00E4A5FA /* HasCodeView.swift */; };
 		C32A5C6E25368D0800E4A5FA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C32A5C7025368D0800E4A5FA /* Localizable.strings */; };
 		C32A5C7425368EC500E4A5FA /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32A5C7325368EC500E4A5FA /* Localization.swift */; };
+		C32A5C78253692D900E4A5FA /* ViewCodeComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32A5C77253692D900E4A5FA /* ViewCodeComponent.swift */; };
 		C3BDF2242536604600B904F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BDF2232536604600B904F3 /* AppDelegate.swift */; };
 		C3BDF2282536604600B904F3 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BDF2272536604600B904F3 /* WelcomeViewController.swift */; };
 		C3BDF22D2536604800B904F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3BDF22C2536604800B904F3 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 		C32A5C7125368D0D00E4A5FA /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C32A5C7225368D0F00E4A5FA /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		C32A5C7325368EC500E4A5FA /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		C32A5C77253692D900E4A5FA /* ViewCodeComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodeComponent.swift; sourceTree = "<group>"; };
 		C3BDF2202536604600B904F3 /* ViewCodeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewCodeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3BDF2232536604600B904F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3BDF2272536604600B904F3 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			children = (
 				C32A5C5525366EDB00E4A5FA /* AppStyle.swift */,
 				C32A5C7325368EC500E4A5FA /* Localization.swift */,
+				C32A5C77253692D900E4A5FA /* ViewCodeComponent.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				C3BDF2282536604600B904F3 /* WelcomeViewController.swift in Sources */,
 				C32A5C5625366EDB00E4A5FA /* AppStyle.swift in Sources */,
 				C3BDF23F253661DD00B904F3 /* WelcomeView.swift in Sources */,
+				C32A5C78253692D900E4A5FA /* ViewCodeComponent.swift in Sources */,
 				C3BDF2242536604600B904F3 /* AppDelegate.swift in Sources */,
 				C32A5C512536650700E4A5FA /* CodeView.swift in Sources */,
 				C32A5C7425368EC500E4A5FA /* Localization.swift in Sources */,

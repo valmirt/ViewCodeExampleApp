@@ -22,40 +22,41 @@ final class WelcomeView: UIView, CodeView {
     //MARK: - Properties
     weak var delegate: WelcomeViewDelegate?
     
-    let scrollView: UIScrollView = {
+    @ViewCodeComponent
+    var scrollView: UIScrollView = {
         let scrollView = UIScrollView(frame: .zero)
-        scrollView.translatesAutoresizingMaskIntoConstraints = false
         scrollView.keyboardDismissMode = .interactive
         return scrollView
     }()
     
-    let contentView: UIView = {
+    @ViewCodeComponent
+    var contentView: UIView = {
         let content = UIView(frame: .zero)
-        content.translatesAutoresizingMaskIntoConstraints = false
         return content
     }()
     
-    let mainImage: UIImageView = {
+    @ViewCodeComponent
+    var mainImage: UIImageView = {
         let imageView = UIImageView(frame: .zero)
         imageView.image = #imageLiteral(resourceName: "home")
         imageView.contentMode = .scaleAspectFit
         imageView.clipsToBounds = true
-        imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
     
-    let titleLabel: UILabel = {
+    @ViewCodeComponent
+    var titleLabel: UILabel = {
         let label = UILabel(frame: .zero)
         label.text = Localization.welcome
         label.textAlignment = .center
         label.font = .title
         label.textColor = .title
         label.accessibilityIdentifier = Localization.welcomeAccessibility
-        label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     
-    let subtitleLabel: UILabel = {
+    @ViewCodeComponent
+    var subtitleLabel: UILabel = {
         let label = UILabel(frame: .zero)
         label.text = Localization.mainSubtitle
         label.textAlignment = .center
@@ -63,27 +64,26 @@ final class WelcomeView: UIView, CodeView {
         label.font = .body
         label.textColor = .body
         label.accessibilityIdentifier = Localization.mainSubtitle
-        label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     
-    let phoneTextField: UITextField = {
+    @ViewCodeComponent
+    var phoneTextField: UITextField = {
         let textField = UITextField(frame: .zero)
         textField.placeholder = Localization.phoneHint
         textField.borderStyle = .roundedRect
         textField.keyboardType = .phonePad
         textField.textAlignment = .center
-        textField.translatesAutoresizingMaskIntoConstraints = false
         return textField
     }()
     
-    let buttonStackView: UIStackView = {
+    @ViewCodeComponent
+    var buttonStackView: UIStackView = {
         let stackview = UIStackView(frame: .zero)
         stackview.axis = .horizontal
         stackview.distribution = .fillEqually
         stackview.alignment = .center
         stackview.spacing = Dimens.horizontalSmall
-        stackview.translatesAutoresizingMaskIntoConstraints = false
         return stackview
     }()
     
