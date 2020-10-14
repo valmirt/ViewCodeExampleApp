@@ -10,6 +10,7 @@
 		C32A5C512536650700E4A5FA /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32A5C502536650700E4A5FA /* CodeView.swift */; };
 		C32A5C5625366EDB00E4A5FA /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32A5C5525366EDB00E4A5FA /* AppStyle.swift */; };
 		C32A5C5B25366FC700E4A5FA /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32A5C5A25366FC700E4A5FA /* UIColorExtension.swift */; };
+		C32A5C6125367DC400E4A5FA /* WelcomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32A5C6025367DC400E4A5FA /* WelcomeButton.swift */; };
 		C3BDF2242536604600B904F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BDF2232536604600B904F3 /* AppDelegate.swift */; };
 		C3BDF2282536604600B904F3 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BDF2272536604600B904F3 /* WelcomeViewController.swift */; };
 		C3BDF22D2536604800B904F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3BDF22C2536604800B904F3 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 		C32A5C502536650700E4A5FA /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
 		C32A5C5525366EDB00E4A5FA /* AppStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStyle.swift; sourceTree = "<group>"; };
 		C32A5C5A25366FC700E4A5FA /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		C32A5C6025367DC400E4A5FA /* WelcomeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeButton.swift; sourceTree = "<group>"; };
 		C3BDF2202536604600B904F3 /* ViewCodeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewCodeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3BDF2232536604600B904F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3BDF2272536604600B904F3 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +77,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		C32A5C5F25367D9800E4A5FA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C32A5C6025367DC400E4A5FA /* WelcomeButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		C3BDF2172536604600B904F3 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +108,7 @@
 				C3BDF23C2536619600B904F3 /* Welcome */,
 				C32A5C4F253664DC00E4A5FA /* Shared */,
 				C3BDF22C2536604800B904F3 /* Assets.xcassets */,
+				C32A5C5F25367D9800E4A5FA /* Components */,
 				C3BDF22E2536604800B904F3 /* LaunchScreen.storyboard */,
 				C3BDF2312536604800B904F3 /* Info.plist */,
 			);
@@ -204,6 +215,7 @@
 				C3BDF2242536604600B904F3 /* AppDelegate.swift in Sources */,
 				C32A5C512536650700E4A5FA /* CodeView.swift in Sources */,
 				C32A5C5B25366FC700E4A5FA /* UIColorExtension.swift in Sources */,
+				C32A5C6125367DC400E4A5FA /* WelcomeButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
